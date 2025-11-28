@@ -10,15 +10,12 @@ public class GitInputServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        // パラメータ取得
         String first = request.getParameter("first");
         String last = request.getParameter("last");
 
-        // レスポンスの設定
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
 
-        // HTMLを直接出力
         out.println("<html>");
         out.println("<head><title>名前表示</title></head>");
         out.println("<body>");
