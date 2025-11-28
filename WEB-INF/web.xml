@@ -7,7 +7,7 @@
 
     <servlet>
         <servlet-name>GitInputServlet</servlet-name>
-        <jsp-file>/GitInputServlet.jar</jsp-file>
+        <jsp-file>/gitinpt.jsp</jsp-file>
     </servlet>
 
     <servlet-mapping>
