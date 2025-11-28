@@ -5,17 +5,6 @@
         <servlet-name>GitInputServlet</servlet-name>
         <jsp-file>/gitinpt.jsp</jsp-file>
     </servlet>
-
-    <servlet-mapping>
-        <servlet-name>GitInputServlet</servlet-name>
-        <url-pattern>/name</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <servlet-name>GitInputServlet</servlet-name>
-        <servlet-class>GitInputServlet</servlet-class>
-    </servlet>
-
     <servlet-mapping>
         <servlet-name>GitInputServlet</servlet-name>
         <url-pattern>/GitInputServlet</url-pattern>
