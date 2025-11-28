@@ -6,12 +6,13 @@
          version="5.0">
 
     <servlet>
-        <servlet-name>NameServlet</servlet-name>
-        <servlet-class>job.servlet.NameServlet</servlet-class>
+        <servlet-name>GitInputServlet</servlet-name>
+        <servlet-class>job.servlet.GitInputServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>NameServlet</servlet-name>
+        <servlet-name>GitInputServlet</servlet-name>
         <url-pattern>/name</url-pattern>
     </servlet-mapping>
+
 </web-app>
