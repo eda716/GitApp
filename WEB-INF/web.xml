@@ -3,10 +3,10 @@
 
     <servlet>
         <servlet-name>GitInputServlet</servlet-name>
-        <jsp-file>/gitinpt.jsp</jsp-file>
+        <servlet-class>job.servlet.GitInputServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>GitInputServlet</servlet-name>
-        <url-pattern>/GitInputServlet</url-pattern>
+        <url-pattern>/gitinput</url-pattern>
     </servlet-mapping>
 </web-app>
