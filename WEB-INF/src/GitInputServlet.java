@@ -24,3 +24,4 @@ public class GitInputServlet extends HttpServlet {
         out.println("</body></html>");
     }
 }
+

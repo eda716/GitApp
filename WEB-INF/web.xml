@@ -5,29 +5,27 @@
                              https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
 
-    <servlet>
-        <servlet-name>GitInputServlet</servlet-name>
-        <jsp-file>/gitinpt.jsp</jsp-file>
-    </servlet>
-
-    <!-- JSPへのURLマッピング -->
-    <servlet-mapping>
-        <servlet-name>GitInputServlet</servlet-name>
-        <url-pattern>/GitInputServlet</url-pattern>
-    </servlet-mapping>
-
-
-
-    <!-- サーブレットの定義 -->
+    <!-- GitInputServlet の定義 -->
     <servlet>
         <servlet-name>GitInputServlet</servlet-name>
         <servlet-class>GitInputServlet</servlet-class>
     </servlet>
 
-    <!-- サーブレットのマッピング -->
+    <!-- GitInputServlet のマッピング -->
     <servlet-mapping>
         <servlet-name>GitInputServlet</servlet-name>
         <url-pattern>/GitInputServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- JSPファイル (gitinpt.jsp) をURLにマッピング -->
+    <servlet>
+        <servlet-name>GitInputJSP</servlet-name>
+        <jsp-file>/gitinpt.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GitInputJSP</servlet-name>
+        <url-pattern>/gitinpt</url-pattern>
     </servlet-mapping>
 
 </web-app>
