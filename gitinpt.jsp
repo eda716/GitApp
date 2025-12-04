@@ -3,7 +3,7 @@
 <head><title>名前入力</title></head>
 <body>
     <h2>名前を入力してください</h2>
-    <form action="gitinput" method="get"></form>
+    <form action="GitInputServlet" method="get"></form>
         姓: <input type="text" name="last"><br>
         名: <input type="text" name="first"><br>
         <input type="submit" value="送信">
